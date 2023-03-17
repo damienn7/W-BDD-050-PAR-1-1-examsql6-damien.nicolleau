@@ -1,0 +1,1 @@
+select name as "Nom de l'abonnement le plus cher",price as 'Prix' from subscription order by price desc limit 1;

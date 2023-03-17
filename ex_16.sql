@@ -1,0 +1,1 @@
+select round(avg(duration),2) as "Duree moyenne" from movie;

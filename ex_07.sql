@@ -1,0 +1,1 @@
+select count(*) as 'Nombre de films commencant par "Mo"' from movie where left(title,2)="Mo";

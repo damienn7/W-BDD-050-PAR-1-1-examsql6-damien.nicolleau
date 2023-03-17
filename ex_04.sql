@@ -1,0 +1,1 @@
+select * from subscription order by reduction asc, name desc;

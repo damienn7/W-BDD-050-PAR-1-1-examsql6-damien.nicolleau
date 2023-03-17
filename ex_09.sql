@@ -1,0 +1,1 @@
+select duration as 'Duree du film le plus court' from movie where duration is not null order by duration asc limit 1;

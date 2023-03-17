@@ -1,0 +1,1 @@
+select m.title as 'title' from movie as m join movie_genre as mg on mg.id_movie=m.id join genre as g on g.id = mg.id_genre where g.name in('Action','Romance') order by m.id asc;

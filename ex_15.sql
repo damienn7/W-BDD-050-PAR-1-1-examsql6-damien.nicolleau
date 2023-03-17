@@ -1,0 +1,1 @@
+select count(*) as 'Nombre de films', year(release_date) as 'Annee de sortie' from movie group by 'Annee de sortie' order by 'Annee de sortie' desc; 
